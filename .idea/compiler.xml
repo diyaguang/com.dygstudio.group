@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
+        <module name="microservice-provider-user" />
         <module name="parent" />
         <module name="ribbon-consumer" />
         <module name="spring-boot-hello" />
