@@ -2,14 +2,14 @@ package com.dygstudio.group.ribbonconsumer.controller;
 
 import com.dygstudio.group.ribbonconsumer.service.HelloService;
 import com.dygstudio.group.ribbonconsumer.service.UserService;
-import com.netflix.discovery.converters.Auto;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
@@ -20,6 +20,7 @@ import java.util.List;
  */
 @RestController
 public class ConsumerController {
+    private static final Logger LOGGER = LoggerFactory.getLogger(ConsumerController.class);
 
     @Autowired
     HelloService helloService;
@@ -35,5 +36,11 @@ public class ConsumerController {
     @GetMapping("/user-instance")
     public List<ServiceInstance> showInfo(){
         return userService.showInfo();
+    }
+
+    @GetMapping("/log-instance")
+    public void logUserInstance(){
+        ServiceInstance serviceInstance = userService.getUserInstance();
+        ConsumerController.LOGGER.info("{}:{}:{}",serviceInstance.getServiceId(),serviceInstance.getHost(),serviceInstance.getPort());
     }
 }
