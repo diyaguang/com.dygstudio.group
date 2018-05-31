@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
+        <module name="feign-consumer" />
+        <module name="hystrix-dashboard-server" />
+        <module name="hystrix-turbine-server" />
         <module name="microservice-provider-user" />
         <module name="parent" />
         <module name="ribbon-consumer" />
@@ -15,6 +18,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
+      <module name="feign-consumer" target="1.8" />
+      <module name="hystrix-dashboard-server" target="1.8" />
+      <module name="hystrix-turbine-server" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
       <module name="parent" target="1.6" />
       <module name="ribbon-consumer" target="1.8" />

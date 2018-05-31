@@ -13,6 +13,9 @@
         <module>eureka-server</module>
         <module>ribbon-consumer</module>
         <module>microservice-provider-user</module>
+        <module>feign-consumer</module>
+        <module>hystrix-dashboard-server</module>
+        <module>hystrix-turbine-server</module>
     </modules>
 
     <parent>
