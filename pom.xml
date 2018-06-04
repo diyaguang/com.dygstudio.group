@@ -16,6 +16,8 @@
         <module>feign-consumer</module>
         <module>hystrix-dashboard-server</module>
         <module>hystrix-turbine-server</module>
+        <module>zuul-server</module>
+        <module>microservice-file-upload</module>
     </modules>
 
     <parent>
