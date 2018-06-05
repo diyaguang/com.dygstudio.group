@@ -15,7 +15,9 @@ public class UsersController {
     @Autowired
     private UsersRepository usersRepository;
 
-    //说明：其中这是 Spring4.3提供的新注解。这是一个组合注解，等价于 @RequestMapping(method=RequestMenthod.GET)，用于简化开发。同样的还有 @PostMapping，@PutMapping，@DeleteMapping，@PatchMapping 等。
+    /** 说明：其中这是 Spring4.3提供的新注解。
+     * 这是一个组合注解，等价于 @RequestMapping(method=RequestMenthod.GET)，用于简化开发。
+     * 同样的还有 @PostMapping，@PutMapping，@DeleteMapping，@PatchMapping 等。*/
     @GetMapping("/{id}")
     public Users findById(@PathVariable String id){
         Users findOne = this.usersRepository.findOne(id);
