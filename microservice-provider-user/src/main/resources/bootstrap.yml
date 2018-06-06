@@ -3,6 +3,17 @@ spring:
     name: microservice-provider-user
   cloud:
     config:
-      uri: http://localhost:9004
+      #uri: http://localhost:9004
       profile: dev
       label: master
+      discovery:
+        enabled: true
+        service-id: config-server
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
