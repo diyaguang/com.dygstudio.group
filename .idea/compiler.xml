@@ -13,7 +13,6 @@
         <module name="hystrix-turbine-server" />
         <module name="microservice-file-upload" />
         <module name="microservice-provider-user" />
-        <module name="parent" />
         <module name="ribbon-consumer" />
         <module name="spring-boot-hello" />
         <module name="zuul-server" />
