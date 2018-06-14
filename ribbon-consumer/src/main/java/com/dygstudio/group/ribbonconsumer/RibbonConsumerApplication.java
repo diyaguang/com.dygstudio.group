@@ -10,12 +10,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-@EnableDiscoveryClient
-@EnableCircuitBreaker //Enabling fault-tolerant mechanism
+@EnableDiscoveryClient  //Registration of the application is a Eureka client application
+@EnableCircuitBreaker   //Enabling fault-tolerant mechanism
 public class RibbonConsumerApplication {
 
 	@Bean
-	@LoadBalanced
+	@LoadBalanced  //Opening the client load balancing
 	RestTemplate restTemplate(){
 		return new RestTemplate();
 	}
