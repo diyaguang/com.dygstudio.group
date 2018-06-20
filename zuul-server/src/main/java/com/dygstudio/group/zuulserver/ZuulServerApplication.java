@@ -15,9 +15,11 @@ public class ZuulServerApplication {
         SpringApplication.run(ZuulServerApplication.class, args);
     }
 
+
     @Bean
     public AccessFilter accessFilter(){
         return new AccessFilter();
     }
+
 }
 
