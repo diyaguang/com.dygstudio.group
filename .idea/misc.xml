@@ -4,12 +4,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/hystrix-dashboard-server/pom.xml" />
-        <option value="$PROJECT_DIR$/hystrix-turbine-server/pom.xml" />
-        <option value="$PROJECT_DIR$/zuul-server/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-file-upload/pom.xml" />
-        <option value="$PROJECT_DIR$/config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/db-model/pom.xml" />
       </list>
     </option>
   </component>

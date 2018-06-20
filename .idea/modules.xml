@@ -8,11 +8,33 @@
       <module fileurl="file://$PROJECT_DIR$/feign-consumer/feign-consumer.iml" filepath="$PROJECT_DIR$/feign-consumer/feign-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard-server/hystrix-dashboard-server.iml" filepath="$PROJECT_DIR$/hystrix-dashboard-server/hystrix-dashboard-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-turbine-server/hystrix-turbine-server.iml" filepath="$PROJECT_DIR$/hystrix-turbine-server/hystrix-turbine-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db-model/src/main/main.iml" filepath="$PROJECT_DIR$/db-model/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-server/src/main/main1.iml" filepath="$PROJECT_DIR$/zuul-server/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-consumer/src/main/main10.iml" filepath="$PROJECT_DIR$/feign-consumer/src/main/main10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-turbine-server/src/main/main2.iml" filepath="$PROJECT_DIR$/hystrix-turbine-server/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-file-upload/src/main/main3.iml" filepath="$PROJECT_DIR$/microservice-file-upload/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-consumer/src/main/main4.iml" filepath="$PROJECT_DIR$/ribbon-consumer/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-hello/src/main/main5.iml" filepath="$PROJECT_DIR$/spring-boot-hello/src/main/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/src/main/main6.iml" filepath="$PROJECT_DIR$/eureka-server/src/main/main6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/src/main/main7.iml" filepath="$PROJECT_DIR$/microservice-provider-user/src/main/main7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/src/main/main8.iml" filepath="$PROJECT_DIR$/config-server/src/main/main8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard-server/src/main/main9.iml" filepath="$PROJECT_DIR$/hystrix-dashboard-server/src/main/main9.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-file-upload/microservice-file-upload.iml" filepath="$PROJECT_DIR$/microservice-file-upload/microservice-file-upload.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" filepath="$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-hello/spring-boot-hello.iml" filepath="$PROJECT_DIR$/spring-boot-hello/spring-boot-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-consumer/src/test/test.iml" filepath="$PROJECT_DIR$/feign-consumer/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/src/test/test1.iml" filepath="$PROJECT_DIR$/config-server/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/src/test/test10.iml" filepath="$PROJECT_DIR$/microservice-provider-user/src/test/test10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-turbine-server/src/test/test2.iml" filepath="$PROJECT_DIR$/hystrix-turbine-server/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-hello/src/test/test3.iml" filepath="$PROJECT_DIR$/spring-boot-hello/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-consumer/src/test/test4.iml" filepath="$PROJECT_DIR$/ribbon-consumer/src/test/test4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-file-upload/src/test/test5.iml" filepath="$PROJECT_DIR$/microservice-file-upload/src/test/test5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-server/src/test/test6.iml" filepath="$PROJECT_DIR$/zuul-server/src/test/test6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db-model/src/test/test7.iml" filepath="$PROJECT_DIR$/db-model/src/test/test7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard-server/src/test/test8.iml" filepath="$PROJECT_DIR$/hystrix-dashboard-server/src/test/test8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/src/test/test9.iml" filepath="$PROJECT_DIR$/eureka-server/src/test/test9.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul-server/zuul-server.iml" filepath="$PROJECT_DIR$/zuul-server/zuul-server.iml" />
     </modules>
   </component>
