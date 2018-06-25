@@ -21,6 +21,7 @@
         <module>microservice-file-upload</module>
         <module>config-server</module>
         <module>db-model</module>
+        <module>stream-server</module>
     </modules>
 
     <parent>

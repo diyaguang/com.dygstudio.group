@@ -16,6 +16,7 @@
         <module name="microservice-provider-user" />
         <module name="ribbon-consumer" />
         <module name="spring-boot-hello" />
+        <module name="stream-server" />
         <module name="zuul-server" />
       </profile>
     </annotationProcessing>
@@ -31,6 +32,7 @@
       <module name="parent" target="1.6" />
       <module name="ribbon-consumer" target="1.8" />
       <module name="spring-boot-hello" target="1.8" />
+      <module name="stream-server" target="1.8" />
       <module name="zuul-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>

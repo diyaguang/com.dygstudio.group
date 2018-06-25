@@ -12,6 +12,7 @@
     <file url="file://$PROJECT_DIR$/microservice-provider-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbon-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-hello" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-server" charset="UTF-8" />
   </component>
 </project>
